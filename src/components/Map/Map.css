@@ -1,0 +1,39 @@
+.map-style {
+  height: 218px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.map-container {
+  height: 436px;
+  max-width: 402px;
+  margin: 15px auto 0;
+}
+
+@media (min-width: 1024px) {
+  .map-container {
+    margin: 0 auto;
+  }
+}
+
+.map-info {
+  height: 218px;
+  max-width: 402px;
+  background-color: #2a3047;
+  color: #e8ebf3;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 70px;
+  background-image: url(../../images/circle.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.job__title-h3--light {
+  color: #e7eaf0;
+  margin-bottom: 8px;
+}

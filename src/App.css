@@ -1,0 +1,156 @@
+.job__title {
+  font-family: "Proxima Nova", sans-serif;
+  color: #3a4562;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.56px;
+  margin-bottom: 5px;
+  transition: color 0.5s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .job__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.63px;
+    margin-bottom: 8px;
+  }
+}
+
+.job__title:hover {
+  color: #0d2360;
+}
+
+.job__title-h1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.75px;
+}
+
+.job__title-h2 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 47px;
+  letter-spacing: 0.41px;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .job__title-h2--static {
+    position: static;
+  }
+
+  .job__title-h2--hidden {
+    display: none;
+  }
+}
+
+.job__title-h2:after {
+  content: "";
+  display: block;
+  background-color: #3a4562;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.13;
+}
+
+.job__title-h3 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.63px;
+}
+
+.top-block {
+  position: relative;
+}
+
+.btn {
+  border-radius: 8px;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #384564;
+  padding: 18px 30px;
+  color: #fff;
+  margin: auto;
+  display: block;
+  margin-top: 39px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0d2360;
+}
+
+@media (min-width: 1024px) {
+  .btn-primary {
+    display: inline-block;
+  }
+}
+
+.secondary-color {
+  color: #878d9d;
+}
+
+.rectangle {
+  display: inline-block;
+  padding: 16px 0;
+  border-radius: 8px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.rectangle--benefits {
+  background: rgba(255, 207, 0, 0.15);
+  border: 1px solid #ffcf00;
+  letter-spacing: -0.4px;
+  color: #988b49;
+  margin-right: 10px;
+}
+
+.rectangle--employment {
+  background: rgba(161, 177, 219, 0.317343);
+  border: 1px solid rgba(85, 105, 158, 0.3);
+  letter-spacing: -0.46px;
+  color: #55699e;
+  margin-right: 8px;
+}
+
+.image-container {
+  max-height: 120px;
+  min-width: 200px;
+}
+
+.attached-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.location-sm {
+  display: inline-block;
+  width: 14px;
+  height: 19px;
+  background: url(./images/location-small.svg) no-repeat center;
+  margin-right: 8px;
+}

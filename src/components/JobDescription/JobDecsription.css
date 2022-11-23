@@ -1,0 +1,19 @@
+.job__title-h3--my {
+  margin: 39px 0 8px;
+}
+
+.description-li:before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: rgba(56, 69, 100, 0.6326);
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+@media (min-width: 1024px) {
+  .description-li:before {
+    margin-left: -20px;
+  }
+}

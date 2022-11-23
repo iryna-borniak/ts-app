@@ -1,0 +1,108 @@
+.job__page {
+  row-gap: 86px;
+  padding: 24px 15px;
+  margin: auto;
+}
+
+@media (min-width: 1024px) {
+  .job__page {
+    padding: 56px 15px;
+  }
+}
+
+.arrow {
+  width: 10px;
+  height: 18px;
+  background: url(../../images/arrow.svg) no-repeat center;
+  margin-right: 19px;
+}
+
+.job__date {
+  color: #38415d5b;
+  margin: 21px 0 26px;
+}
+
+@media (min-width: 1024px) {
+  .job__date {
+    margin: 7px 0;
+  }
+}
+
+.btn-secondary {
+  display: none;
+  background-color: #eff0f5;
+  color: inherit;
+  width: 213px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease-in-out;  
+}
+
+@media (min-width: 1024px) {
+  .btn-secondary {
+    display: inline-flex;
+  }
+  .btn-secondary:hover {
+    background-color: #e3e7f2;
+  }
+}
+
+.btn-hidden {
+  display: none;
+  margin-left: 0;
+}
+
+@media (min-width: 1024px) {
+  .btn-hidden {
+    display: block;
+  }
+}
+
+.salary-block {
+  margin-top: 5px;
+  margin-bottom: 14px;
+  justify-items: right;
+  align-content: start;
+}
+
+@media (min-width: 1024px) {
+  .salary-block {
+    margin: 0;
+  }
+}
+
+.additional-info {
+  margin-top: 15px;
+}
+
+@media (min-width: 1024px) {
+  .job__bookmark {
+    height: 32px;
+    width: 32px;
+    background: url(../../images/bookmark.svg) no-repeat center;
+    margin-right: 11px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .job__bookmark {
+    height: 20px;
+    width: 21px;
+    background: url(../../images/bookmark-star.png) no-repeat center;
+    margin-right: 11px;
+  }
+}
+
+.share {
+  width: 18px;
+  height: 20px;
+  background: url(../../images/share.svg) no-repeat center;
+  margin-right: 11px;
+}
+
+@media (min-width: 1024px) {
+  .share {    
+    margin-right: 15px;
+  }
+}
