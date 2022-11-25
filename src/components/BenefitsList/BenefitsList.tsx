@@ -6,6 +6,7 @@ const splitList = (text?: string) => {
     if (!text) {
       return;
     }
+    
     return text.split('.').filter((el) => el !== '').map(el => el.trim());
   };
 

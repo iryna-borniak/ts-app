@@ -2,7 +2,7 @@ import React from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 import { defaultTheme } from '../Themes/Theme';
 import { CustomMarker } from '../CustomMarker/CustomMarker';
-import './Map.css';
+import './Contacts.css';
 
 type Props = {
   name: string;
@@ -27,7 +27,7 @@ const defaultOptions = {
   styles: defaultTheme,
 };
 
-export const Map: React.FC<Props> = ({
+export const Contacts: React.FC<Props> = ({
   location,
   name,
   address,
@@ -53,7 +53,8 @@ export const Map: React.FC<Props> = ({
   }, []);
 
   return (
-    <>
+    <aside className="order-4 lg:order-2 lg:col-start-9 lg:col-end-13">
+      <h2 className="job__title-h2 job__title-h2--hidden">Contacts</h2>
       {isLoaded ? (
         <div className="map-container">
           <div className="map-info">
@@ -83,6 +84,6 @@ export const Map: React.FC<Props> = ({
       ) : (
         <div>Loading...</div>
       )}
-    </>
+    </aside>
   );
 };

@@ -7,6 +7,6 @@ type Props = {
     lng: number;
   };
 };
-export const CustomMarker = ({ center }: Props) => (
+export const CustomMarker: React.FC<Props> = ({ center }) => (
   <Marker position={center} icon={location} />
 );
